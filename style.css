@@ -1,0 +1,159 @@
+@charset "utf-8" ;
+
+@font-face{
+     font-family: "cordel";
+     src: url("fontes/Passion_One/PassionOne-Regular.ttf") format(truetype);
+}
+@font-face{
+     font-family: "cordel 2";
+     src: url("fontes/Sriracha/Sriracha-Regular.ttf" ) format(truetype);
+}
+
+*{
+     margin: 0px;
+     padding:0px;
+}
+  body{ margin: auto;
+     font-family: "cordel 2";
+     min-width: 280px;
+     min-height: 100vh;
+     text-align: justify;
+    
+  
+  }
+
+     header{
+          min-width: 280px;
+          background-color: black;
+          height: 200px;
+          color: white;
+          text-align: center;
+          padding-top: 50px;
+          padding-bottom: 50px;
+     }
+    header p a{
+          text-decoration: none;
+          color: white;
+          font-weight: bolder;
+          font-family: "cordel 2";
+          padding-bottom: 50px;
+          
+          
+
+
+     }
+     header a:hover{
+         text-decoration: underline;
+     }
+     h1 {
+          font-family: "cordel";
+          font-size: 3em;
+          padding-top:50px ;
+          margin: auto;
+          font-variant: small-caps;
+     }
+     section{
+          
+          padding-top: 10vh;
+          padding-bottom: 10vh;
+          line-height: 2.5em;
+          padding-left: 40px;
+          font-size: 1em ;
+          
+          
+          
+     }
+    
+       
+       section p {
+          padding-bottom: 2em;
+         
+          
+         
+          
+          
+          
+
+       }
+       section.a{ 
+          box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.332);
+          
+          
+          color: white;
+          background-image: url(imagens/background001.jpg);
+          background-repeat: no-repeat;
+          background-position: right center;
+          height: 60vh;
+          background-size: cover;
+          background-attachment: fixed;
+          padding-top: 10vh;
+          padding-bottom: 10vh;
+         
+          
+
+
+       }
+       article{
+          font-family: "cordel 2";
+          padding: 10px;
+          text-shadow: 1px 1px 1px black;
+          
+          background-color: rgba(0, 0, 0, 0.158);
+          position: absolute;
+          width: 250px;
+          height: 340px;
+         
+         
+          border-radius: 2px 2px 2px black;
+         
+       } 
+      
+          
+          
+          
+          
+          
+       
+       section.b{
+          box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.341);
+          background-image: url("imagens/background002.jpg");
+          background-repeat: no-repeat;
+          background-position: right center;
+          height: 60vh;
+          background-size: cover;
+          background-attachment: fixed;
+          padding-top: 10vh;
+          padding-bottom: 10vh;
+          
+          
+         
+          
+
+          }
+
+           section.b p{ 
+               color: white;               
+              
+          }
+      
+       footer{
+          text-decoration: none;
+          color: white;
+          font-weight: bolder;
+          background-color: black;
+          font-family: "cordel 2";
+          font-size: 1em;
+          padding: 10px;
+          text-align: center;
+       }
+    
+     footer a {
+          text-align: center; 
+          text-decoration: none;
+          font-size: 1em;
+          color: white;
+          
+     }
+     footer a:hover{
+          text-decoration: underline;
+     }
